@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    height:94%;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.icon {
+
+    width: 4%;
+    aspect-ratio: 1 / 1;
+    /* background-color:rgb(116, 114, 114); */
+    /* border: 1px solid gray; */
+}
+
+#icon1 img {
+    width: 100%;
+    background-color: aqua;
+}
+
+#icon1 {
+    
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    
+    /* background-color:rgb(54, 211, 14); */
+    
+    border-radius: 10%;
+    background-size: cover;
+
+}
+
+
+#icon2 {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    
+    
+    border-radius: 10%;
+    background-size: cover;
+}
+#icon3 {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    border-radius: 10%;
+    background-size: cover;
+}
+#icon4 {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+   
+    
+    border-radius: 10%;
+    background-size: cover;
+}
+
+p { 
+    text-align: center;
+}
+
+.taskleiste {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+task {
+    height: 6%;
+    
+    display: flex;
+    background-color: rgb(145, 145, 145);
+}
+
+.tasks {
+    width: 97vw;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.tasks ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.tasks ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+    border: 1px solid rgb(116, 114, 114);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.tasks ul li:hover {
+    background-color: rgb(155, 155, 155);
+}
+
+ .logo {
+    width: 3%;
+    aspect-ratio: 1 / 1;
+    background-image: url("redhat-brands.svg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+.logo:hover {
+
+    background-color: aliceblue;
+}
+
+.modal-content {
+    display: none;
+    background-color: #fefefe;
+    position: absolute;
+    bottom: -20%;
+    right:0;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 15%; 
+
+}
+
