@@ -29,6 +29,22 @@ main {
 #icon1 img {
     width: 100%;
     background-color: aqua;
+    border-radius: 10px;
+}
+#icon2 img {
+    width: 100%;
+    background-color: rgb(255, 38, 0);
+    border-radius: 10px;
+}
+#icon3 img {
+    width: 100%;
+    background-color: rgb(129, 171, 224);
+    border-radius: 10px;
+}
+#icon4 img {
+    width: 100%;
+    background-color: rgb(0, 255, 179);
+    border-radius: 10px;
 }
 
 #icon1 {
@@ -123,12 +139,13 @@ task {
 }
 
  .logo {
-    width: 3%;
-    aspect-ratio: 1 / 1;
+    height: 95%;
+    width:4%;
     background-image: url("redhat-brands.svg");
     background-repeat: no-repeat;
-    height: 100%;
+    background-position: center;
     background-size: cover;
+    
 }
 
 .logo:hover {
@@ -136,9 +153,9 @@ task {
     background-color: aliceblue;
 }
 
-.modal-content {
+.modal-uhr {
     display: none;
-    background-color: #fefefe;
+    background-color: #fefefe5e;
     position: absolute;
     bottom: -20%;
     right:0;
@@ -146,6 +163,7 @@ task {
     padding: 20px;
     border: 1px solid #888;
     width: 15%; 
+    border-radius: 10px;
 
 }
 

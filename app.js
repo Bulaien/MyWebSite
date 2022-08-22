@@ -16,4 +16,11 @@ const now = x + ':' + y + ':' + z;
     
    
 }
+let modal = document.querySelector('.modal-uhr')
+let timer = document.querySelector('.clock')
+timer.addEventListener('click', openModal)
 
+function openModal(){
+    modal.style.display === "none" ? modal.style.display = 'block' : modal.style.display = 'none';
+    modal.innerHTML = new Date()
+}
