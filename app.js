@@ -18,9 +18,18 @@ const now = x + ':' + y + ':' + z;
 }
 let modal = document.querySelector('.modal-uhr')
 let timer = document.querySelector('.clock')
-timer.addEventListener('click', openModal)
+timer.addEventListener('click', openModalUhr)
 
-function openModal(){
+function openModalUhr(){
     modal.style.display === "none" ? modal.style.display = 'block' : modal.style.display = 'none';
     modal.innerHTML = new Date()
+}
+
+let modalUber = document.querySelector('.modal-ubermich')
+let uberMich = document.querySelector('.uber_mich')
+uberMich.addEventListener('click', openModalUber)
+let close = document.querySelector('.window-right')
+close.addEventListener('click', openModalUber)
+function openModalUber() {
+    modalUber.style.display === "none" ? modalUber.style.display = 'block' : modalUber.style.display = 'none';
 }
